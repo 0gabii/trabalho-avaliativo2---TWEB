@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Primeira Secção */
+.sec1 {
+    font-family: Arial, sans-serif;
+    background-color: #d2baa2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.texto1 h1 {
+    font-family: sans-serif;
+    font-size: 4rem;
+    color: #2f4f36;
+}
+
+.texto1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #2f4f36;
+    margin-top: 10px;
+}
+
+.foto1 img {
+    width: 400px;
+    height: 400px;
+    background-color: #d3f1ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 30px;
+}
+
+
+/* Segunda seção */
+.sec2 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1d6c9;
+    padding: 40px;
+    color: #2f2c32;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.foto2 img {
+    width: 300px;
+    height: 400px;
+    background-color: #d2baa2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.descricao {
+    margin-left: 100px;
+}
+
+.descricao h1 {
+    margin-left: 150px;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.descricao p {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+}
+
+
+/* Terceira seção  */
+.sec3 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #e1d6c9;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.formacao, .habilidades {
+    width: 45%;
+}
+
+.cursos {
+    margin-top: 120px;
+}
+
+.habili {
+    margin-top: 110px;
+}
+
+.formacao h2, .habilidades h2, .cursos h3 {
+    font-size: 2.5rem;
+    color: #2f4f36;
+}
+
+.formacao h3{
+    color: #2f4f36;
+    margin-top: 17px;
+}
+
+.formacao p, .habilidades p, .formacao ul, .habilidades ul {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #2f4f36;
+}
+
+.formacao ul li, .habilidades ul li {
+    margin-top: 10px;
+}
+
+.habilidades h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+
+/* Seção de Projetos Anteriores */
+.sec4 {
+    font-family: Arial, sans-serif;
+    background-color: #e1d6c9;
+    color: #c4b3d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.sec4 h1 {
+    margin-bottom: 100px;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projeto {
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+}
+
+.img img {
+    width: 200px;
+    height: 200px;
+    background-color: #d3f1ff;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+.projeto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 1.2rem;
+    color: #c4b3d8;
+}
+
+/* Seção de Contato */
+.sec5 {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #d2baa2;
+    color: #2f4f36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.contato {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
